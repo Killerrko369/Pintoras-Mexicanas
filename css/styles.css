@@ -43,7 +43,7 @@ h4{
 }
 
 .flex-container{
-  /* display: flex; */
+  display: flex;
   background-color: DodgerBlue;
 }
 .flex-container >  div {
