@@ -35,9 +35,19 @@ h4{
     padding: 30px;
     border: 3px solid blueviolet;
     margin: 50px;
-    display: flex;
 }
 
 .referencias{
     text-align: left;
+}
+
+.flex-container{
+  /* display: flex; */
+  background-color: DodgerBlue;
+}
+.flex-container >  div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
