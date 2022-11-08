@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(pink,rgb(245, 211, 217));
+    font-family: sans-serif;
+}
+
+h1{
+    color:rgb(112, 14, 12);
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-shadow: 3px 5px 10px black;
+}
+
+.Violeta, h3{
+    color:rgba(126, 39, 207, 0.897);
+}
+
+h2{
+    text-align: right;
+    font-weight: bold;
+}
+
+h4{
+    color: fuchsia;
+}
+
+.Pintoras p{
+    color: purple;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.Pintoras {
+    background-color: rgba(162, 97, 223, 0.822);
+    padding: 30px;
+    border: 3px solid blueviolet;
+    margin: 50px;
+ /* column-count: 4;
+    column-gap: 10px;
+    column-rule-style: dashed;
+    column-rule-color: red; */
+    box-shadow: 9px 6px 6px 6px rgb(236, 98, 121);
+    display: flex;
+    justify-content: center;
+}
+
+.referencias{
+    text-align: left;
+}
+
+/* .Pintoras > div{
+    display: flex;
+    /* border: 3px dashed red; 
+    justify-content: space-around;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
+    padding: 20px 0px;
+    font-size: 8px;
+    align-items: center;
+    overflow: auto;
+} */
+
+/* .Lilia{
+   /* border: 3px dashed red; 
+    border-style: dashed;
+    border-width: 0px 5px 0px 0px;
+    border-color: red;
+    padding: 20px;
+    font-size: 9px;
+    text-align: justify;
+    width: 25%;
+} */
+
+.Lilia > h3, h4{
+    text-align: center;
+}
+
+.Lilia > img{
+    width: 100%;
+    height: 40vh;
+}
+
+/* .Lola{
+    /* border: 3px dashed red; 
+    border-style: dashed;
+    border-width: 0px 5px 0px 0px;
+    border-color: red;
+    padding: 20px;
+    font-size: 9px;
+    text-align: justify;
+    width: 25%;
+} */
+
+.Lola > h3, h4{
+    text-align: center;
+}
+
+.Lola > img{
+    width: 100%;
+    height: 40vh;
+}
+
+/* .Celia{
+    /* border: 3px dashed red; 
+    border-style: dashed;
+    border-width: 0px 5px 0px 0px;
+    border-color: red;
+    padding: 20px;
+    font-size: 9px;
+    text-align: justify;
+    width: 25%;
+} */
+
+.Celia > h3, h4{
+    text-align: center;
+}
+
+.Celia > img{
+    width: 100%;
+    height: 40vh;
+}
+
+/* .Remedios{
+    /* border: 3px dashed red; */
+    /* border-style: dashed; */
+    /* border-width: 0px 5px 0px 0px; 
+    border-color: red;
+    padding: 20px;
+    font-size: 9px;
+    text-align: justify;
+    width: 25%;
+} */
+
+.Remedios > h3, h4{
+    text-align: center;
+}
+
+.Remedios > img{
+    width: 100%;
+    height: 40vh;
+}
+
+.Pintoras div{
+    width: 25%;
+    border: 3px dashed red;
+    padding: 10px;
+
+}
